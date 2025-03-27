@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  background-color: rgb(102, 148, 150);
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 20px;
+}
+.card {
+  margin: 20px;
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.card img {
+  width: 100%;
+}
+card-content {
+  padding: 25px;
+}
+.card h1 {
+  text-align: center;
+  color: linen;
+  font-size: 25px;
+}
+.card h2 {
+  font-size: 15px;
+  color: rgb(94, 143, 145);
+}
+.tarjeta {
+  display: flex;
+  justify-content: center;
+}
+.card:hover {
+  background-color: lightcyan;
+  transform: scale(1.05);
+}
+.card .footer {
+  padding: 25px;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+}
