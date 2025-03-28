@@ -1,11 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
-  background-color: rgb(102, 148, 150);
+  background-color: bisque;
   margin: 0;
   padding: 0;
 }
 .logo {
-  width: 20px;
+  width: 100px;
+  border-radius: 155px;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header {
+  background-color: blanchedalmond;
+}
+header img {
+  width: 150px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(17, 1, 16);
+  font-size: 17px;
+  padding: 15px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.main {
+  background-color: gainsboro;
+  color: black;
+}
+.main img {
+  width: 80px;
+  display: flex;
+}
+.welcome {
+  padding: 20px;
+  background-color: rgb(176, 176, 250);
+  text-align: center;
+}
+.welcome img {
+  position: relative;
+  right: 400px;
+  border-radius: 20%;
+}
+.welcome h1 {
+  text-align: center;
 }
 .card {
   margin: 20px;
@@ -13,42 +60,60 @@ body {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 5px 10px;
-  text-align: center;
-}
-nav a {
-  text-decoration: none;
-  color: black;
-}
-nav a:hover {
-  text-decoration: underline;
+  box-shadow: 0px 5px 10px;
 }
 .card img {
   width: 100%;
 }
-card-content {
+.card-content {
   padding: 25px;
 }
 .card h1 {
   text-align: center;
-  color: linen;
+  color: forestgreen;
   font-size: 25px;
 }
 .card h2 {
   font-size: 15px;
-  color: rgb(94, 143, 145);
+  color: red;
 }
 .tarjeta {
   display: flex;
   justify-content: center;
 }
 .card:hover {
-  background-color: lightcyan;
+  background-color: rgb(231, 243, 197);
   transform: scale(1.05);
 }
-.card .footer {
+.footerr {
   padding: 25px;
   text-align: center;
 }
 .footer a {
   text-decoration: none;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+.courses {
+  padding: 30px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.welcome h1,
+.courses h2 {
+  color: rgb(167, 230, 230);
+}
+.infoCurso img {
+  width: 255px;
+  float: left;
+  margin-right: 30px;
+}
+.infoCurso {
+  overflow: auto;
+  margin-bottom: 30px;
 }
